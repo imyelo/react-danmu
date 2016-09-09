@@ -1,0 +1,33 @@
+.danmu .danmu-screen {
+  display: block;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+.danmu .danmu-message {
+  position: absolute;
+  color: #fff;
+  -webkit-transition: linear all;
+  transition: linear all;
+  line-height: 1em;
+  opacity: 0.9;
+}
+.danmu .danmu-message.ready {
+  -webkit-transform: translateX(640px);
+          transform: translateX(640px);
+}
+.danmu .danmu-message.playing {
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+}
+.danmu .danmu-message.over {
+  display: none;
+}
+.view-playground-danmu .input {
+  margin: 20px 0;
+  width: 640px;
+  line-height: 0;
+  padding: 20px 10px;
+}
+
+/*# sourceMappingURL=simple.css.map*/
