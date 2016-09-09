@@ -1,0 +1,25 @@
+.danmu {
+  .danmu-screen {
+    display: block;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+  }
+  .danmu-message {
+    position: absolute;
+    color: #fff;
+    transition: linear all;
+    line-height: 1em;
+    opacity: 0.9;
+    &.ready {
+      transform: translateX(640px);
+    }
+    &.playing {
+      transform: translate(-100%);
+    }
+    &.over {
+      display: none;
+    }
+    
+  }
+}
