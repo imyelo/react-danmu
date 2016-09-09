@@ -26,7 +26,7 @@ React Danmu Component
 
 ## Screenshots
 
-<img src="" width="288"/>
+<img src="./screenshot.png" width="288"/>
 
 
 ## Development
